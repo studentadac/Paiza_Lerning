@@ -1,0 +1,6 @@
+Q
+N 個の要素からなる数列 A が与えられます。数列 A は昇順にソートされています。A の重複した要素を取り除いて昇順に出力してください。
+https://paiza.jp/works/mondai/data_structure/data_structure__set_step2
+
+A
+cppのsetは自動的に整列されるのでそこにinsertして挿入し終わったら重複しない全ての要素が出力される

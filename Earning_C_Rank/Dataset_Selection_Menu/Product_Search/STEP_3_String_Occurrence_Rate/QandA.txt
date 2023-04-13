@@ -1,0 +1,7 @@
+Q:
+https://paiza.jp/works/mondai/data_structure/data_structure__dict_step3
+文字列が N 個与えられます。各文字列の出現回数を文字列の辞書順に出力してください。
+
+A
+文字列key,整数型初期値0のpairを作る
+文字列が入力されるごとにそのpairをインクリメントする
