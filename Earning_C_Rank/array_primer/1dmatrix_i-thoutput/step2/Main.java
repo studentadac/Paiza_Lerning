@@ -8,13 +8,15 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        int k = sc.nextInt()-1;    //練習問題で定義された配列では１から数えるがjavaの配列は０から数えるので1を引く
+        sc.nextLine();//改行
 
-        final int k=sc.nextInt()-1;
-        sc.nextLine();//nextIntは改行されないので改行用
-        String S=sc.nextLine();
-
+        String S=  sc.nextLine();
+        sc.close();
+        
         String ans[] = S.split(" ");//スペースを区切り文字にして配列を作成
-        System.out.println(ans[k]);//配列の要素数を表示
+        System.out.println(ans[k]);
+
     }
 }
 //```
