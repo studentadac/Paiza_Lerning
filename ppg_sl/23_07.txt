@@ -1,0 +1,264 @@
+//言語：cpp
+//問題URL：https://paiza.jp/works/mondai/ppg_sl_cpp/ppg_sl_cpp__enjou
+//コメント：
+//コード：
+//```cpp
+#include <iostream>
+
+int main() {
+    int due;
+    std::cin >> due;
+    if (due<=3) {
+        std::cout << "BOMB" << std::endl;
+        exit(0);
+    }
+    std::cout << "ONGOING" << std::endl;
+
+    return 0;
+}
+//```
+
+//言語：cpp
+//問題URL：https://paiza.jp/works/mondai/ppg_sl_cpp/ppg_sl_cpp__kaidan
+//コメント：
+//コード：
+//```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+    int n;
+    std::cin >> n;
+
+    auto ans = n + n + n;
+    std::cout << ans << std::endl;
+
+    return 0;
+}
+//```
+
+//言語：csharp
+//問題URL：https://paiza.jp/works/mondai/ppg_sl_cs/ppg_sl_cs__enjou
+//コメント：
+//コード：
+//```cs
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int due = Convert.ToInt32(Console.ReadLine());
+        if (due<=3)
+        {
+            Console.WriteLine("BOMB");
+            Environment.Exit(0);
+        }
+        Console.WriteLine("ONGOING");
+    }
+}
+//```
+
+//言語：Csharp
+//問題URL:https://paiza.jp/works/mondai/ppg_sl_cs/ppg_sl_cs__kaidan
+//コメント：
+//コード：
+//```cs
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        var n = int.Parse(Console.ReadLine());
+        var ans = n + n + n;
+        Console.WriteLine(ans);
+    }
+}
+
+//```
+
+//言語：Go
+//問題URL:https://paiza.jp/works/mondai/ppg_sl_go/ppg_sl_go__enjou
+//コメント：
+//コード：
+//```go
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	var due int
+	fmt.Scan(&due)
+	if due<=3 {
+		fmt.Println("BOMB")
+		os.Exit(0)
+	}
+	fmt.Println("ONGOING")
+}
+//```
+
+//言語：Go
+//問題https://paiza.jp/works/mondai/ppg_sl_go/ppg_sl_go__kaidan
+//コメント：
+//コード：
+//```go
+package main
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Scanln(&n)
+
+	ans := n + n + n
+	fmt.Println(ans)
+}
+//```
+
+//言語：Java
+//問題URL：https://paiza.jp/works/mondai/ppg_sl_java/ppg_sl_java__enjou
+//コメント：
+//コード：
+//```Java
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int due = scanner.nextInt();
+        scanner.close();
+
+        if (due<=3) {
+            System.out.println("BOMB");
+            System.exit(0);
+        }
+
+        System.out.println("ONGOING");
+    }
+}
+//```
+
+//言語：Java
+//問題URL：https://paiza.jp/works/mondai/ppg_sl_java/ppg_sl_java__kaidan
+//コメント：
+//コード：
+//```Java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        var n = scanner.nextInt();
+
+        var ans = n + n + n;
+        System.out.println(ans);
+    }
+}
+//```
+
+
+//言語：JavaScript
+//問題URL:https://paiza.jp/works/mondai/ppg_sl_js/ppg_sl_js__enjou
+//コメント：
+//コード：
+//```js
+const input = require('fs').readFileSync('/dev/stdin', 'utf8')
+let due = parseInt(input, 10);
+if(due<=3){
+	console.log("BOMB");
+	process.exit(0);
+}
+console.log("ONGOING");
+//```
+
+//言語：JavaScript
+//問題URL:https://paiza.jp/works/mondai/ppg_sl_js/ppg_sl_js__kaidan
+//コメント：
+//コード：
+//```js
+const n = parseInt(require('fs').readFileSync('/dev/stdin', 'utf8'))
+console.log(n + n +n);
+//```
+
+
+//言語：php
+//問題URL:https://paiza.jp/works/mondai/ppg_sl_php/ppg_sl_php__enjou
+//コメント：
+//コード：
+//```php
+<?php
+    $due = intval(fgets(STDIN));
+    if ($due<=3) {
+        echo "BOMB\n";
+        exit(0);
+    }
+    echo "ONGOING\n";
+?>
+//```
+
+//言語：php
+//問題URL:https://paiza.jp/works/mondai/ppg_sl_php/ppg_sl_php__kaidan
+//コメント：
+//コード：
+//```php
+<?php
+    $n = readline();
+
+    $ans = $n *3;
+    echo $ans;
+?>
+//```
+
+
+#言語：python3
+#問題URL：https://paiza.jp/works/mondai/ppg_sl_python/ppg_sl_python__enjou
+#コメント：
+#コード：
+#```py
+due = int(input())
+if due<=3:
+	print("BOMB")
+	exit()
+print("ONGOING")
+
+#```
+
+
+
+#言語：python3
+#問題URL：
+#コメント：
+#コード：
+#```py
+n = int(input())
+ans = n + n + n
+print(ans)
+
+#```
+
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/ppg_sl_ruby/ppg_sl_ruby__enjou
+#コメント：
+#コード：
+#```rb
+due = gets.chomp.to_i
+if due<=3
+    puts "BOMB"
+    exit
+end
+puts "ONGOING"
+#```
+
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/ppg_sl_ruby/ppg_sl_ruby__kaidan
+#コメント：
+#コード：
+#```rb
+n = gets.chomp.to_i
+ans = n + n + n
+puts ans
+#```
