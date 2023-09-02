@@ -1,0 +1,14 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/string_primer/advance_step4
+#コメント:  参考 https://www.javadrive.jp/ruby/regex/index19.html
+#```rb
+S = gets.chomp
+ if /\d+/ =~ S &&  $& == S
+     puts "YES"
+ else
+     puts "NO"
+     #puts $&
+end
+     
+
+#```

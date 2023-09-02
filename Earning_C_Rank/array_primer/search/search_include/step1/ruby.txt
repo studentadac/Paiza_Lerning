@@ -1,0 +1,7 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__search_include_step1
+#コメント:  
+#```rb
+a = "10 13 21 1 6 51 10 8 15 6".split().map(&:to_i)
+puts a.include?(6)?"Yes":"No"
+#```

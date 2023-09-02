@@ -1,0 +1,16 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__2dmatrix_input_step4
+#コメント:  
+#```rb
+n,m=gets.split(" ").map(&:to_i)
+a=[]
+n.times do 
+a.push(gets.split(" ").map(&:to_i))
+end
+
+a.each do |x|
+    puts x.join(' ')
+end
+    
+
+#```

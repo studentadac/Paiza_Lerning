@@ -1,0 +1,43 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/string_primer/advance_step6
+#コメント:  参考 https://techracho.bpsinc.jp/hachi8833/2020_11_06/59639
+#```rb
+=begin
+K さんは paiza のアカウントを作成することにしました。そのためには、パスワードの設定が必要なことがわかりました。
+そこで K さんは忘れないように、次のようなルールにのっとって N 文字のパスワードを設定することにしました。
+
+・ ルール
+K さんは N 文字のうち、 Q 文字だけ覚えておく文字を決めておく。
+具体的には n_i 文字目を c_i とだけ決めて、残りの全ての文字を C にする。
+
+K さんの設定したパスワードを当ててください。
+
+例
+・ N = 5 , Q = 1 , n_1 = 2 , c_1 = 'T' , C = 'K' のとき
+パスワードは 5 文字であり、 2 文字目が 'T' , それ以外の文字を 'K' としたものである "KTKKK" が K さんのパスワードとなる。
+
+▼　下記解答欄にコードを記入してみよう
+=end
+
+N=gets.to_i
+q=gets.to_i
+hash={}
+q.times{
+    
+    n,c=gets.split()
+    n=n.to_i-1
+    
+    hash[n]=c
+    
+    
+}
+
+ans=gets.chomp*N
+#p ans
+hash.each do |key, value|
+  ans[key]=value
+end
+
+
+puts ans
+#```

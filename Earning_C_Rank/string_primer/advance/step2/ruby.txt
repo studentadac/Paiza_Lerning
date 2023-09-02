@@ -1,0 +1,8 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/string_primer/normal_step2
+#コメント: 
+#```rb
+line = gets
+puts (line.gsub(/\/|\:/, "\n"))
+
+#```

@@ -1,0 +1,19 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__2dmatrix_i-thoutput_step2
+#コメント:  
+#```rb
+b=gets.split(" ").map(&:to_i)
+
+k,l=b.map{|i| i-1}
+
+
+a=[]
+n=3
+n.times do 
+a.push(gets.split(" ").map(&:to_i))
+end
+
+
+
+puts a[k][l]
+#```

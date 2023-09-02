@@ -1,0 +1,21 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__2dmatrix_i-thoutput_boss
+#コメント:  
+#```rb
+n,m,k,l=gets.split(" ").map(&:to_i)
+
+k-=1
+l-=1
+
+
+
+a=[]
+
+n.times do 
+a.push(gets.split(" ").map(&:to_i))
+end
+
+
+
+puts a[k][l]
+#```

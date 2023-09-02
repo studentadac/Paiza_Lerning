@@ -1,0 +1,8 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/string_primer/normal_step11
+#コメント: 
+#```rb
+S = gets.chomp
+puts (S==S.reverse)?"YES":"NO"
+
+#```

@@ -1,0 +1,7 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__1dmatrix_input_step2
+#コメント:  
+#```rb
+a = gets.split()
+puts a
+#```

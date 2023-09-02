@@ -1,0 +1,9 @@
+#言語：ruby
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__1dmatrix_i-thoutput_boss
+#コメント:  
+#```rb
+n,k=gets.split(" ").map(&:to_i)
+k-=1
+a = gets.split(" ").map(&:to_i)
+puts a[k]
+#```
