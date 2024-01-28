@@ -1,0 +1,9 @@
+#言語：python3
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__array_minmax
+#コメント：
+#コード：
+#```py
+input()
+a=list(map(int,input().split()))
+print(max(a),min(a))
+#```

@@ -1,0 +1,9 @@
+#言語：python3
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__elm_change
+#コメント：
+#コード：
+#```py
+a=input().split()
+a.reverse()
+print(*a)
+#```

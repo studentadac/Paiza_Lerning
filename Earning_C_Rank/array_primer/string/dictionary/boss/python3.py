@@ -1,0 +1,9 @@
+#言語：python3
+#問題URL：https://paiza.jp/works/mondai/array_primer/array_primer__string_dictionary_boss
+#コメント：
+#コード：
+#```py
+k=int(input().split()[1])-1
+a=sorted(input().split())
+print(a[k])
+#```
